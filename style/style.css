@@ -51,6 +51,35 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
+.category {
+    display: inline-block;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.75rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.category-sports { background: var(--sports-color);}
+.category-ent { background: var(--ent-color); }
+.category-tech { background: var(--tech-color); }
+
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.btn-primary { background: var(--primary-color);}
+.btn-secondary { background: var(--secondary-color);}
+.btn-light { background: var(--light-color); color: var(--dark-color); }
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
 #main-nav .logo {
     width: 180px;
 }
@@ -99,7 +128,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* content */
-
 #showcase {
     background: #333;
     color: #fff;
@@ -128,5 +156,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #showcase .showcase-content {
     z-index: 1;
+}
+
+#showcase .showcase-content p{
+    margin-bottom: 1rem;
 }
 
