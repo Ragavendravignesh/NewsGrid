@@ -97,6 +97,10 @@ h1, h2, h3, h4, h5, h6 {
 .p-2 { padding: 2rem; }
 .p-3 { padding: 3rem; }
 
+.l-heading {
+    font-size: 3rem;
+}
+
 .bg-dark {
     background: var(--dark-color);
     color: #fff;
@@ -295,4 +299,16 @@ p {
 
 #main-footer .footer-container input[type="submit"] {
     width: 90%;
+}
+
+#article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background: #eee;
+}
+
+#article .meta .category {
+    margin-top: 0.4rem;
 }
